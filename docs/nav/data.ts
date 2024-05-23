@@ -7,8 +7,173 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
+    title: 'SaleSmartly相关',
+    items: [
+      {
+        icon: 'https://cdnjson.com/images/2021/09/13/23432523532.png',
+        title: 'Admin管理后台',
+        desc: 'SaleSmartly管理后台',
+        link: 'https://ss888.xmp.one/admin.html#/admin/company/index.html?spm=m-67-100-101',
+      },
+      {
+        icon: 'https://resource.helplook.net/docker_production/4lsamm/icon/icon.png?rand=17935696',
+        title: 'SaleSmartly后台',
+        desc: 'SaleSmartly客服系统后台',
+        link: 'https://app.salesmartly.com/chat',
+      },
+      {
+        icon: 'https://img.alicdn.com/tfs/TB1sNayNfb2gK0jSZK9XXaEgFXa-52-48.png',
+        title: 'Ss项目管理',
+        desc: '客户问题跟进/功能上线清单',
+        link: 'https://www.teambition.com/project/64afa6103c7a12b9b8a36b71/tasks/view/64afa611e77d4a7b05c43e9f',
+      },
+      {
+        icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
+        title: 'Ss客户需求登记表',
+        desc: '客户需求登记和跟进',
+        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuv3g7kRjWdqbropQ?iframeQuery=utm_source%3Dportal%26utm_medium%3Dportal_recent',
+      },
+      {
+        icon: 'https://soybean-admin.netlify.app/favicon.svg',
+        title: '响应式-个人网站',
+        desc: '聊天插件Demo效果展示，适配移动/ipad等设备',
+        link: 'https://soybean-admin.netlify.app/#/home',
+      },
+      {
+        icon: 'https://resource.helplook.net/docker_production/4lsamm/icon/icon.png?rand=17935696',
+        title: '专属链接Demo',
+        desc: '可查看专属链接效果',
+        link: 'http://test.seasir.top/',
+      },
+      {
+        icon: 'https://resource.helplook.net/docker_production/4lsamm/icon/icon.png?rand=17935696',
+        title: 'ISO 27001权威认证',
+        desc: '客户担心数据安全可发',
+        link: 'https://www.salesmartly.com/blog/docs/salesmartly-authoritative-certification',
+      },
+      {
+        icon: 'https://p6a.xmp.one/admin/assets/logo-512x512.137cf8cb.png',
+        title: 'Payment',
+        desc: '用来查U支付的',
+        link: 'https://p6a.xmp.one/admin/#/dashboard/workplace',
+      },
+      {
+        icon: 'https://cdn.apifox.com/app/project-icon/builtin/19.jpg',
+        title: 'SaleSmartly api接口',
+        desc: '企业版套餐api接口',
+        link: 'https://p6a.xmp.one/admin/#/dashboard/workplace',
+      },
+      {
+        icon: 'https://proxy6.net/static/img/favicon300.png',
+        title: 'proxies',
+        desc: 'Ads指纹浏览器购买IP的',
+        link: 'https://proxy6.net/en/',
+      },
+      {
+        icon: 'https://www.iplocation.net/favicon.ico',
+        title: 'iplocation',
+        desc: '解析ip网络位置',
+        link: 'https://www.iplocation.net/',
+      },
+      {
+        icon: 'https://ip-api.com/favicon.ico',
+        title: 'ip-api',
+        desc: '搜索任何IP地址/域',
+        link: 'https://ip-api.com/',
+      },
+    ],
+  },
+  {
+    title: 'FaceBook',
+    items: [
+      {
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+        title: '错误代码-云端API',
+        desc: '查WhatsApp api错误码',
+        link: 'https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes',
+      },
+      {
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+        title: 'Error Codes Messenger',
+        desc: '查FB主页错误码',
+        link: 'https://developers.facebook.com/docs/messenger-platform/error-codes',
+      },
+      {
+        icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
+        title: 'Meta业务产品的状态和中断',
+        desc: 'FaceBook故障公告',
+        link: 'https://metastatus.com/',
+      },
+      {
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+        title: '模板分类',
+        desc: 'WhatsApp api模版官方示例网站',
+        link: 'https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines',
+      },
+      {
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+        title: 'WhatsApp api定价',
+        desc: 'WhatsApp api号码官方价格',
+        link: 'https://developers.facebook.com/docs/whatsapp/pricing',
+      },
+      {
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+        title: 'WhatsApp 商业政策',
+        desc: 'WhatsApp api违反商业政策',
+        link: 'https://business.whatsapp.com/policy',
+      },
+      {
+        icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
+        title: 'WhatsApp Business 商业帐号的账单简介',
+        desc: 'WhatsApp Business 商业帐号的账单简介',
+        link: 'https://www.facebook.com/business/help/2225184664363779?id=2129163877102343',
+      },
+      {
+        icon: 'https://img.alicdn.com/imgextra/i1/O1CN01DGvg5O1TqMV3L4TNd_!!6000000002433-2-tps-96-96.png',
+        title: '【错误码】问题上报相关问题',
+        desc: '钉钉文档整理错误码',
+        link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space',
+      },
+      {
+        icon: 'https://wwcdn.weixin.qq.com/node/wwnl/wwnl/style/images/independent/favicon/favicon_16h$faede2cd.png',
+        title: '企业微信错误码',
+        desc: '全局错误码-文档-企业微信开发者中心',
+        link: 'https://developer.work.weixin.qq.com/document/path/96213',
+      },
+    ],
+  },
+  {
+    title: '接码平台',
+    items: [
+      {
+        icon: 'https://5sim.net//apple-touch-icon.png',
+        title: '5SIM',
+        desc: '短信激活 | 使用虚拟号码在线接收短信',
+        link: 'https://5sim.net/zh',
+      },
+      {
+        icon: 'https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon.png',
+        title: 'SMS-Activate是在线接受短信的虚拟号码服务 ',
+        desc: 'SMS-Activate是在线接受短信的虚拟号码服务',
+        link: 'https://sms-activate.org/cn',
+      },
+      {
+        icon: 'https://resource.helplook.net/docker_production/4lsamm/icon/icon.png?rand=17935696',
+        title: '其他接码平台 ',
+        desc: '更多接码平台',
+        link: 'https://www.salesmartly.com/blog/docs/code-receiving-platform',
+      },
+    ],
+  },
+  {
     title: '常用工具',
     items: [
+      {
+        icon: 'https://www.bejson.com/static/bejson/img/logo.png',
+        title: '在线短地址转换工具',
+        desc: '转换短链接的',
+        link: 'https://www.bejson.com/convert/shorturl/#google_vignette',
+      },
       {
         icon: 'https://caniuse.com/img/favicon-128.png',
         title: 'Can I use',
