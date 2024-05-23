@@ -2,14 +2,14 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '前端导航', link: '/nav/' },
-  { text: '茂茂主页', link: 'https://fe-mm.com' },
+  { text: '个人网站', link: 'https://soybean-admin.netlify.app/#/home' },
   {
-    text: '茂茂物语',
-    link: 'https://notes.fe-mm.com',
+    text: 'salesmartly官网',
+    link: 'https://salesmartly.com/',
   },
-  { text: 'mmPlayer', link: 'https://netease-music.fe-mm.com' },
+  { text: '跨境都知道导航', link: 'https://www.kjdzd.com' },
   {
-    text: '油猴脚本',
-    link: 'https://github.com/maomao1996/tampermonkey-scripts',
+    text: 'FrontEndNav',
+    link: 'https://nav.web-hub.cn/',
   },
 ]
