@@ -287,6 +287,12 @@ export const NAV_DATA: NavData[] = [
         title: '企业邮箱 - 来发信',
         desc: '常见企业邮箱登录方式教程',
         link: 'https://www.laifa.xin/category/yx/qyyx/',
+      },
+      {
+        icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.81060cab.png',
+        title: '临时邮箱',
+        desc: '12款常用的临时邮箱汇总',
+        link: 'https://zhuanlan.zhihu.com/p/690640067',
       }
     ],
   },

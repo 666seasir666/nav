@@ -51,5 +51,9 @@
     "patchedDependencies": {
       "vite-plugin-markdown-preview@1.1.1": "patches/vite-plugin-markdown-preview@1.1.1.patch"
     }
+  },
+  "dependencies": {
+    "flexsearch": "^0.7.43",
+    "minisearch": "^6.3.0"
   }
 }

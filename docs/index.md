@@ -4,15 +4,15 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: SeasirHyde
-  text: 前端导航模板
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  text: Ss内部导航
+  tagline: 基于 VitePress 的前端导航页面模板
   image:
     src: /logo.png
     # alt: 茂茂物语
   actions:
     # - text: 茂茂物语
     #   link: https://notes.fe-mm.com
-    - text: 前端导航
+    - text: Ss内部导航
       link: /nav/
       theme: alt
     - text: mmPlayer
@@ -22,8 +22,8 @@ hero:
     #   theme: alt
 features:
   - icon: 🚀
-    title: 前端导航
-    details: 一站式个人前端导航页面
+    title: Ss内部导航
+    details: 一站式个人Ss内部导航页面
     link: /nav/
     linkText: 查看更多
   - icon: 🌐

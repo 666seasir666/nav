@@ -4,6 +4,14 @@ import MarkdownPreview from 'vite-plugin-markdown-preview'
 
 import { head, nav, sidebar } from './configs'
 
+import MiniSearch from 'minisearch';
+
+// 定义 MiniSearch 实例
+const search = new MiniSearch({
+  fields: ['title', 'content'],
+  storeFields: ['title'],
+});
+
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
@@ -11,11 +19,15 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '前端导航',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  // 网站标题
+  title: '内部导航',
+  // 网站描述
+  description: 'SaleSmartly技术支持内部导航网站，由VitePress搭建，并使用Vue3作为开发框架。',
   head,
 
-  lastUpdated: true,
+  // 表示是否更新成功
+lastUpdated: true,
+  // 表示是否清理URL
   cleanUrls: true,
 
   /* markdown 配置 */
@@ -25,11 +37,15 @@ export default defineConfig({
 
   /* 主题配置 */
   themeConfig: {
+    // 是否开启国际化路由（生产环境关闭）
     i18nRouting: false,
 
+    //  logo地址
     logo: '/logo.png',
 
+    // 导航配置
     nav,
+    // 侧边栏配置
     sidebar,
 
     /* 右侧大纲配置 */
@@ -45,10 +61,15 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present SeasirHyde',
     },
 
+    // 声明一个lastUpdated变量，它是一个对象，包含文本（text）和格式选项（formatOptions）
     lastUpdated: {
+      // 文本是中文，表示最后更新于
       text: '最后更新于',
+      // 格式选项包含日期样式（dateStyle）和时间样式（timeStyle）
       formatOptions: {
+        // 日期样式为短格式
         dateStyle: 'short',
+        // 时间样式为中格式
         timeStyle: 'medium',
       },
     },
@@ -66,6 +87,7 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
+      // 访问量统计
       badgeId: 'maomao1996.vitepress-nav-template',
     },
 
@@ -75,6 +97,34 @@ export default defineConfig({
       category: 'Announcements',
       categoryId: 'DIC_kwDOJC09Js4Cekn0',
     },
+
+    // 设置搜索框的样式
+    search: {
+      provider: 'local',
+      options: {
+        miniSearch: {
+          options: {
+            extractField: (entry, fieldName) => {
+              return entry[fieldName];
+            },
+            tokenize: (str) => {
+              return str.toLowerCase().split(/\s+/);
+            },
+            processTerm: (term) => {
+              return term.toLowerCase();
+            },
+          },
+          searchOptions: {
+            fuzzy: 0.2, // 模糊匹配程度
+            prefix: true, // 是否支持前缀匹配
+            boost: { // 字段权重
+              title: 4,
+              content: 2
+            }
+          }
+        }
+      }
+    }
   },
 
   vite: {
