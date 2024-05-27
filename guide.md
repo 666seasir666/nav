@@ -22,7 +22,7 @@ hero:
   text: 个人前端导航  //左侧第二行
   tagline: 使用 VitePress 打造个人前端导航  //第三行小注内容
   image:
-    src: /logo.png //页面大图地址（图像最好切圆后使用）
+    src: /background.svg //页面大图地址（图像最好切圆后使用）
     alt: 茂茂物语
   actions:  //跳转按钮，可按需增减
     - text: 茂茂物语
@@ -187,6 +187,19 @@ export default defineConfig({
     i18nRouting: false,
 
     logo: '/logo.png',  //更改此处
+  }
+})
+```
+
+**3.3 社交链接**：
+
+修改位置：/docs/.vitepress/config.ts
+
+```ts
+export default defineConfig({
+  ---
+  socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],  //更改此处
+})
 ```
 
 ---

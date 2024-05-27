@@ -3,20 +3,21 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: SeasirHyde
-  text: Ss内部导航
+  name: SaleSmartly
+  text: 内部一站式导航
   tagline: 基于 VitePress 的前端导航页面模板
   image:
-    src: /logo.png
+    # 主页右侧logo背景图
+    src: /background.svg
     # alt: 茂茂物语
   actions:
     # - text: 茂茂物语
     #   link: https://notes.fe-mm.com
-    - text: Ss内部导航
-      link: /nav/
-      theme: alt
-    - text: mmPlayer
+    - text: 在线音乐播放器
       link: https://netease-music.fe-mm.com
+      theme: alt
+    - text: 快速开始
+      link: /nav/
     # - text: 测试页
     #   link: /test
     #   theme: alt
