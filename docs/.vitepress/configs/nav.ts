@@ -22,6 +22,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'FrontEndNav', link: 'https://nav.web-hub.cn/' },
       { text: '茂茂前端导航', link: 'https://notes.fe-mm.com/nav' },
       { text: '前端助手', link: 'https://web-abin.github.io/abinWeb/tools' },
+      { text: 'Web安全色 | CSS可视化', link: 'https://css.bqrdh.com/' },
     ]
   },
   {

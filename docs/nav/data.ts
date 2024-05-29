@@ -92,10 +92,16 @@ export const NAV_DATA: NavData[] = [
         desc: 'SaleSmartly 产品视频介绍',
         link: 'https://www.douyin.com/user/MS4wLjABAAAAJMWUbTYkhJpTOjlIUYmzULqEt9V_8TGzewp7IWHmTWo?modal_id=7337953171035131187',
       },
+      {
+        icon: 'https://wwcdn.weixin.qq.com/node/wwnl/wwnl/style/images/independent/favicon/favicon_16h$faede2cd.png',
+        title: 'SaleSmartly 软件介绍视频',
+        desc: 'SaleSmartly 软件介绍视频',
+        link: 'https://drive.weixin.qq.com/s?k=AI0AKQemAAwFzLwYPX',
+      },
     ],
   },
   {
-    title: 'FaceBook',
+    title: 'FaceBook/Line',
     items: [
       {
         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
@@ -131,7 +137,13 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
         title: 'WhatsApp 商业政策',
         desc: 'WhatsApp api违反商业政策',
-        link: 'https://business.whatsapp.com/policy',
+        link: 'https://www.facebook.com/policies_center/commerce/',
+      },
+      {
+        icon: 'https://www.facebook.com/images/creative_department/favicon.ico',
+        title: 'WhatsApp 商业政策',
+        desc: 'WhatsApp api违反商业政策，这个更详细点',
+        link: 'https://www.facebook.com/policies_center/commerce/',
       },
       {
         icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
@@ -162,6 +174,18 @@ export const NAV_DATA: NavData[] = [
         title: 'ws app收不到验证码',
         desc: '中国大陆号码收不到Whatsapp验证码，怎么办? 真实经验分享（2024最新）',
         link: 'https://www.youtube.com/watch?v=AQNYIcS2o-Q',
+      },
+      {
+        icon: 'https://shoplineapp.cn/images/favicon.png',
+        title: 'FB账户区别科普',
+        desc: 'Facebook概览，个人账号、公共主页、管理员、商务管理平台是什么？',
+        link: 'https://www.youtube.com/watch?v=AQNYIcS2o-Q',
+      },
+      {
+        icon: 'https://d.line-scdn.net/n/_s1/_0/linecorp-web-uit/images/line_touch_icon_v3.png',
+        title: 'Line官方费用计算方式',
+        desc: 'LINE廣告訊息費用怎麼算？LINE自動計算幫你找出最適合方案',
+        link: 'https://tw.linebiz.com/column/budget-auto-count/',
       },
     ],
   },
@@ -222,6 +246,24 @@ export const NAV_DATA: NavData[] = [
         link: 'https://pixpinapp.com/',
       },
       {
+        icon: '/icons/json-cn.ico',
+        title: 'Json 中文网',
+        desc: 'JSON 在线解析及格式化验证',
+        link: 'https://www.json.cn',
+      },
+      {
+        icon: 'https://css.bqrdh.com/favicon.ico',
+        title: '响应式效果检测',
+        desc: '检查网站是否有适配移动端页面布局',
+        link: 'https://css.bqrdh.com/responsive-testing',
+      },
+      {
+        icon: 'https://2fa.run/assets/images/favicons/tools.png',
+        title: '2FA验证',
+        desc: '双重验证码/二步验证码获取工具（相当于谷歌身份验证器的网页版），使用时任选1种方式输入密钥获取即可。',
+        link: 'https://2fa.run/',
+      },
+      {
         icon: 'https://static.convertio.co/favicon.ico',
         title: 'Convertio — 文件转换器',
         desc: 'Convertio - 在线转换文件的简单工具。支持超过309种不同的文档、图像、电子表格、电子书、文档、演示文稿、音频和视频格式。',
@@ -244,12 +286,6 @@ export const NAV_DATA: NavData[] = [
         title: '在线工具',
         desc: '开发人员的工具箱',
         link: 'https://tool.lu',
-      },
-      {
-        icon: '/icons/json-cn.ico',
-        title: 'Json 中文网',
-        desc: 'JSON 在线解析及格式化验证',
-        link: 'https://www.json.cn',
       },
     ],
   },
@@ -303,77 +339,77 @@ export const NAV_DATA: NavData[] = [
   },
   
 ]
-
-export const FaceBook_DATA:FbData[] = [
-  {
-    title: '',
-    items: [
-      {
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
-        title: '错误代码-云端API',
-        desc: '查WhatsApp api错误码',
-        link: 'https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes',
-      },
-      {
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
-        title: 'Error Codes Messenger',
-        desc: '查FB主页错误码',
-        link: 'https://developers.facebook.com/docs/messenger-platform/error-codes',
-      },
-      {
-        icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
-        title: 'Meta业务产品的状态和中断',
-        desc: 'FaceBook故障公告',
-        link: 'https://metastatus.com/',
-      },
-      {
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
-        title: '模板分类',
-        desc: 'WhatsApp api模版官方示例网站',
-        link: 'https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines',
-      },
-      {
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
-        title: 'WhatsApp api定价',
-        desc: 'WhatsApp api号码官方价格',
-        link: 'https://developers.facebook.com/docs/whatsapp/pricing',
-      },
-      {
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
-        title: 'WhatsApp 商业政策',
-        desc: 'WhatsApp api违反商业政策',
-        link: 'https://business.whatsapp.com/policy',
-      },
-      {
-        icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
-        title: 'WhatsApp Business 商业帐号的账单简介',
-        desc: 'WhatsApp Business 商业帐号的账单简介',
-        link: 'https://www.facebook.com/business/help/2225184664363779?id=2129163877102343',
-      },
-      {
-        icon: 'https://img.alicdn.com/imgextra/i1/O1CN01DGvg5O1TqMV3L4TNd_!!6000000002433-2-tps-96-96.png',
-        title: '【错误码】问题上报相关问题',
-        desc: '钉钉文档整理错误码',
-        link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space',
-      },
-      {
-        icon: 'https://wwcdn.weixin.qq.com/node/wwnl/wwnl/style/images/independent/favicon/favicon_16h$faede2cd.png',
-        title: '企业微信错误码',
-        desc: '全局错误码-文档-企业微信开发者中心',
-        link: 'https://developer.work.weixin.qq.com/document/path/96213',
-      },
-      {
-        icon: 'https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png',
-        title: 'WhatsApp app 网页版',
-        desc: 'WhatsApp app 官方网页版',
-        link: 'https://web.whatsapp.com/',
-      },
-      {
-        icon: 'https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png',
-        title: 'ws app收不到验证码',
-        desc: '中国大陆号码收不到Whatsapp验证码，怎么办? 真实经验分享（2024最新）',
-        link: 'https://www.youtube.com/watch?v=AQNYIcS2o-Q',
-      },
-    ],
-  },
-]
+// 暂时注释掉，当时只是测试搜索功能
+// export const FaceBook_DATA:FbData[] = [
+//   {
+//     title: '',
+//     items: [
+//       {
+//         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+//         title: '错误代码-云端API',
+//         desc: '查WhatsApp api错误码',
+//         link: 'https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes',
+//       },
+//       {
+//         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+//         title: 'Error Codes Messenger',
+//         desc: '查FB主页错误码',
+//         link: 'https://developers.facebook.com/docs/messenger-platform/error-codes',
+//       },
+//       {
+//         icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
+//         title: 'Meta业务产品的状态和中断',
+//         desc: 'FaceBook故障公告',
+//         link: 'https://metastatus.com/',
+//       },
+//       {
+//         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+//         title: '模板分类',
+//         desc: 'WhatsApp api模版官方示例网站',
+//         link: 'https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines',
+//       },
+//       {
+//         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+//         title: 'WhatsApp api定价',
+//         desc: 'WhatsApp api号码官方价格',
+//         link: 'https://developers.facebook.com/docs/whatsapp/pricing',
+//       },
+//       {
+//         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+//         title: 'WhatsApp 商业政策',
+//         desc: 'WhatsApp api违反商业政策',
+//         link: 'https://business.whatsapp.com/policy',
+//       },
+//       {
+//         icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
+//         title: 'WhatsApp Business 商业帐号的账单简介',
+//         desc: 'WhatsApp Business 商业帐号的账单简介',
+//         link: 'https://www.facebook.com/business/help/2225184664363779?id=2129163877102343',
+//       },
+//       {
+//         icon: 'https://img.alicdn.com/imgextra/i1/O1CN01DGvg5O1TqMV3L4TNd_!!6000000002433-2-tps-96-96.png',
+//         title: '【错误码】问题上报相关问题',
+//         desc: '钉钉文档整理错误码',
+//         link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space',
+//       },
+//       {
+//         icon: 'https://wwcdn.weixin.qq.com/node/wwnl/wwnl/style/images/independent/favicon/favicon_16h$faede2cd.png',
+//         title: '企业微信错误码',
+//         desc: '全局错误码-文档-企业微信开发者中心',
+//         link: 'https://developer.work.weixin.qq.com/document/path/96213',
+//       },
+//       {
+//         icon: 'https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png',
+//         title: 'WhatsApp app 网页版',
+//         desc: 'WhatsApp app 官方网页版',
+//         link: 'https://web.whatsapp.com/',
+//       },
+//       {
+//         icon: 'https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png',
+//         title: 'ws app收不到验证码',
+//         desc: '中国大陆号码收不到Whatsapp验证码，怎么办? 真实经验分享（2024最新）',
+//         link: 'https://www.youtube.com/watch?v=AQNYIcS2o-Q',
+//       },
+//     ],
+//   },
+// ]
