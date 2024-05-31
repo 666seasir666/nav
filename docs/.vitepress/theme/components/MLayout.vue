@@ -19,12 +19,15 @@ const enableTransitions = () =>
   'startViewTransition' in document &&
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
 
+// 定义一个名为toggle-appearance的提供者
 provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
+  // 如果不允许过渡效果，则直接切换isDark的值
   if (!enableTransitions()) {
     isDark.value = !isDark.value
     return
   }
 
+  // 定义一个clipPath，根据鼠标的坐标和窗口大小来确定
   const clipPath = [
     `circle(0px at ${x}px ${y}px)`,
     `circle(${Math.hypot(
@@ -34,11 +37,13 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   ]
 
   // @ts-ignore
+  // 开始一个视图过渡，在过渡完成后，切换isDark的值，并等待下一帧
   await document.startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
   }).ready
 
+  // 动画过渡clipPath，根据isDark的值来决定使用哪个clipPath
   document.documentElement.animate(
     { clipPath: isDark.value ? clipPath.reverse() : clipPath },
     {

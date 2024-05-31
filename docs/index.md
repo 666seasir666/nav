@@ -32,6 +32,16 @@ features:
     details: 世界第一的多帐户管理反检测浏览器
     link: https://www.adspower.com/
     linkText: 查看更多
+  - icon: 🚀
+    title: 内部知识库
+    details: 钉钉内部知识库
+    link: https://alidocs.dingtalk.com/i/spaces/apjG5kK26OQwKXkE/overview
+    linkText: 查看更多
+  - icon: 🌐
+    title: SaleSmartly - 帮助中心
+    details: 帮助中心
+    link: https://help.salesmartly.com/
+    linkText: 查看更多
 ---
 
 <style>

@@ -27,24 +27,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://app.salesmartly.com/chat',
       },
       {
-        icon: 'https://img.alicdn.com/tfs/TB1sNayNfb2gK0jSZK9XXaEgFXa-52-48.png',
-        title: 'Ss项目管理',
-        desc: '客户问题跟进/功能上线清单',
-        link: 'https://www.teambition.com/project/64afa6103c7a12b9b8a36b71/tasks/view/64afa611e77d4a7b05c43e9f',
-      },
-      {
-        icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
-        title: 'Ss客户需求登记表',
-        desc: '客户需求登记和跟进',
-        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuv3g7kRjWdqbropQ?iframeQuery=utm_source%3Dportal%26utm_medium%3Dportal_recent',
-      },
-      {
-        icon: 'https://soybean-admin.netlify.app/favicon.svg',
-        title: '响应式-个人网站',
-        desc: '聊天插件Demo效果展示，适配移动/ipad等设备',
-        link: 'https://soybean-admin.netlify.app/#/home',
-      },
-      {
         icon: 'https://resource.helplook.net/docker_production/4lsamm/icon/icon.png?rand=17935696',
         title: '专属链接Demo',
         desc: '可查看专属链接效果',
@@ -57,16 +39,28 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.salesmartly.com/blog/docs/salesmartly-authoritative-certification',
       },
       {
-        icon: 'https://p6a.xmp.one/admin/assets/logo-512x512.137cf8cb.png',
-        title: 'Payment',
-        desc: '用来查U支付的',
-        link: 'https://p6a.xmp.one/admin/#/dashboard/workplace',
-      },
-      {
         icon: 'https://cdn.apifox.com/app/project-icon/builtin/19.jpg',
         title: 'SaleSmartly api接口',
         desc: '企业版套餐api接口',
         link: 'https://apifox.com/apidoc/shared-3e66aa38-1e0a-40c7-bf58-c350da69bcb7',
+      },
+      {
+        icon: 'https://img.alicdn.com/tfs/TB1sNayNfb2gK0jSZK9XXaEgFXa-52-48.png',
+        title: 'Ss项目管理',
+        desc: '客户问题跟进/功能上线清单',
+        link: 'https://www.teambition.com/project/64afa6103c7a12b9b8a36b71/tasks/view/64afa611e77d4a7b05c43e9f',
+      },
+      {
+        icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
+        title: 'Ss客户需求登记表',
+        desc: '客户需求登记和跟进',
+        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuv3g7kRjWdqbropQ?iframeQuery=utm_source%3Dportal%26utm_medium%3Dportal_recent',
+      },
+      {
+        icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
+        title: '每日WhatsApp客户订单表格',
+        desc: '用于查客户封禁api号码ads指纹浏览器“环境编号”',
+        link: 'https://alidocs.dingtalk.com/spreadsheetv2/79ZwvXDEheErGyDy/edit?scene=universalSpace&mainsiteOrigin=mainsite&docKey=32M9qP0NMNwpq015&dentryKey=79ZwvXDEheErGyDy&type=s&rnd=0.9157924747687844',
       },
       {
         icon: 'https://proxy6.net/static/img/favicon300.png',
@@ -75,16 +69,16 @@ export const NAV_DATA: NavData[] = [
         link: 'https://proxy6.net/en/',
       },
       {
-        icon: 'https://www.iplocation.net/favicon.ico',
-        title: 'iplocation',
-        desc: '解析ip网络位置',
-        link: 'https://www.iplocation.net/',
+        icon: 'https://p6a.xmp.one/admin/assets/logo-512x512.137cf8cb.png',
+        title: 'Payment',
+        desc: '用来查U支付的，需要公司网络才可以访问！',
+        link: 'https://p6a.xmp.one/admin/#/dashboard/workplace',
       },
       {
-        icon: 'https://ip-api.com/favicon.ico',
-        title: 'ip-api',
-        desc: '搜索任何IP地址/域',
-        link: 'https://ip-api.com/',
+        icon: 'https://webb.adspower.com/public/img/salesmartly_icon.ico',
+        title: 'SaleSmartly Home - Grafana',
+        desc: '查看平均响应和会话满意度',
+        link: 'https://webb.adspower.com',
       },
       {
         icon: 'https://p-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/favicon.png',
@@ -134,10 +128,10 @@ export const NAV_DATA: NavData[] = [
         link: 'https://developers.facebook.com/docs/whatsapp/pricing',
       },
       {
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
+        icon: 'https://static.whatsapp.net/rsrc.php/v3/yz/r/ujTY9i_Jhs1.png',
         title: 'WhatsApp 商业政策',
         desc: 'WhatsApp api违反商业政策',
-        link: 'https://www.facebook.com/policies_center/commerce/',
+        link: 'https://business.whatsapp.com/policy',
       },
       {
         icon: 'https://www.facebook.com/images/creative_department/favicon.ico',
@@ -179,7 +173,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://shoplineapp.cn/images/favicon.png',
         title: 'FB账户区别科普',
         desc: 'Facebook概览，个人账号、公共主页、管理员、商务管理平台是什么？',
-        link: 'https://www.youtube.com/watch?v=AQNYIcS2o-Q',
+        link: 'https://shoplineapp.cn/blog/facebook-gai-lan-ge-ren-zhang-hao-gong-gong-zhu-ye-guan-li-yuan-shang-wu-guan-li-ping-tai-shi-shi-yao-shopline-jiao-nin-kuai-su-liao-jie/#',
       },
       {
         icon: 'https://d.line-scdn.net/n/_s1/_0/linecorp-web-uit/images/line_touch_icon_v3.png',
@@ -228,6 +222,12 @@ export const NAV_DATA: NavData[] = [
         desc: '购买IP代理的',
         link: 'https://panel.proxyline.net/all/',
       },
+      {
+        icon: 'https://ip-api.com/favicon.ico',
+        title: 'ip-api',
+        desc: '搜索任何IP地址/域',
+        link: 'https://ip-api.com/',
+      },
     ],
   },
   {
@@ -262,6 +262,18 @@ export const NAV_DATA: NavData[] = [
         title: '2FA验证',
         desc: '双重验证码/二步验证码获取工具（相当于谷歌身份验证器的网页版），使用时任选1种方式输入密钥获取即可。',
         link: 'https://2fa.run/',
+      },    
+      {
+        icon: 'https://www.iplocation.net/favicon.ico',
+        title: 'iplocation',
+        desc: '解析ip网络位置',
+        link: 'https://www.iplocation.net/',
+      },
+      {
+        icon: 'https://www.67tool.com//favicon.ico',
+        title: '即时工具',
+        desc: '即时工具-致力打造即用即走型在线工具箱',
+        link: 'https://www.67tool.com/',
       },
       {
         icon: 'https://static.convertio.co/favicon.ico',
