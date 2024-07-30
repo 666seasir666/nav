@@ -45,6 +45,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://apifox.com/apidoc/shared-3e66aa38-1e0a-40c7-bf58-c350da69bcb7',
       },
       {
+        icon: 'https://cdn.apifox.com/app/project-icon/builtin/18.jpg',
+        title: 'Webhook接口文档',
+        desc: 'webhook不需要单独付费 可以理解和专属链接一样都是高级功能 只有企业版才能使用',
+        link: 'https://apifox.com/apidoc/shared-c1f4db0d-60eb-42c7-98f7-66c65bc09fdf',
+      },
+      {
         icon: 'https://img.alicdn.com/tfs/TB1sNayNfb2gK0jSZK9XXaEgFXa-52-48.png',
         title: 'Ss项目管理',
         desc: '客户问题跟进/功能上线清单',
@@ -91,6 +97,12 @@ export const NAV_DATA: NavData[] = [
         title: 'SaleSmartly 软件介绍视频',
         desc: 'SaleSmartly 软件介绍视频',
         link: 'https://drive.weixin.qq.com/s?k=AI0AKQemAAwFzLwYPX',
+      },
+      {
+        icon: 'https://anydesk.com/favicon.ico',
+        title: 'AnyDesk',
+        desc: '用于远程海外的客户',
+        link: 'https://anydesk.com/en',
       },
     ],
   },
@@ -234,10 +246,16 @@ export const NAV_DATA: NavData[] = [
     title: '常用工具',
     items: [
       {
-        icon: 'https://www.bejson.com/static/bejson/img/logo.png',
+        icon: '/',
         title: '在线短地址转换工具',
         desc: '转换短链接的',
         link: 'https://www.bejson.com/convert/shorturl/#google_vignette',
+      },
+      {
+        icon: '/',
+        title: '短网址生成器 | LinkShortener',
+        desc: '转换短链接的',
+        link: 'https://my5353.com/',
       },
       {
         icon: 'https://pixpinapp.com/favicon.ico',
@@ -262,7 +280,7 @@ export const NAV_DATA: NavData[] = [
         title: '2FA验证',
         desc: '双重验证码/二步验证码获取工具（相当于谷歌身份验证器的网页版），使用时任选1种方式输入密钥获取即可。',
         link: 'https://2fa.run/',
-      },    
+      },
       {
         icon: 'https://www.iplocation.net/favicon.ico',
         title: 'iplocation',
@@ -324,6 +342,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Beautiful.ai（PPT）',
         link: 'https://www.beautiful.ai',
       },
+      {
+        icon: 'https://openai.com/favicon.ico',
+        title: 'Pricing | OpenAI',
+        desc: 'OpenAI官方价格',
+        link: 'https://openai.com/api/pricing/',
+      },
     ],
   },
   {
@@ -346,10 +370,16 @@ export const NAV_DATA: NavData[] = [
         title: '临时邮箱',
         desc: '12款常用的临时邮箱汇总',
         link: 'https://zhuanlan.zhihu.com/p/690640067',
+      },
+      {
+        icon: 'https://fviainboxes.com/favicon.ico',
+        title: 'Free Temp Mail - FVIA',
+        desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
+        link: 'https://fviainboxes.com/',
       }
     ],
   },
-  
+
 ]
 // 暂时注释掉，当时只是测试搜索功能
 // export const FaceBook_DATA:FbData[] = [
