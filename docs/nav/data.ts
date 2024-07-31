@@ -252,7 +252,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.bejson.com/convert/shorturl/#google_vignette',
       },
       {
-        icon: '/',
+        icon: 'https://pixpinapp.com/favicon.ico',
         title: '短网址生成器 | LinkShortener',
         desc: '转换短链接的',
         link: 'https://my5353.com/',
