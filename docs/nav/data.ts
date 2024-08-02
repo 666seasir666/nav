@@ -58,9 +58,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
-        title: 'Ss客户需求登记表',
-        desc: '客户需求登记和跟进',
-        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuv3g7kRjWdqbropQ?iframeQuery=utm_source%3Dportal%26utm_medium%3Dportal_recent',
+        title: '云设备需求收集表格',
+        desc: '用于收集客户ws/tg/tk个号设备信息',
+        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuX9KrRADWdqbropQ?iframeQuery=',
       },
       {
         icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
@@ -97,12 +97,6 @@ export const NAV_DATA: NavData[] = [
         title: 'SaleSmartly 软件介绍视频',
         desc: 'SaleSmartly 软件介绍视频',
         link: 'https://drive.weixin.qq.com/s?k=AI0AKQemAAwFzLwYPX',
-      },
-      {
-        icon: 'https://anydesk.com/favicon.ico',
-        title: 'AnyDesk',
-        desc: '用于远程海外的客户',
-        link: 'https://anydesk.com/en',
       },
     ],
   },
@@ -188,7 +182,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://shoplineapp.cn/blog/facebook-gai-lan-ge-ren-zhang-hao-gong-gong-zhu-ye-guan-li-yuan-shang-wu-guan-li-ping-tai-shi-shi-yao-shopline-jiao-nin-kuai-su-liao-jie/#',
       },
       {
-        icon: 'https://d.line-scdn.net/n/_s1/_0/linecorp-web-uit/images/line_touch_icon_v3.png',
+        icon: 'https://play-lh.googleusercontent.com/jSuWySmy_T3qzqyTkwtffwTeGLGnT5AfA00JFMlBNW3Hq8WXvFfXz7cpi70H2Pqra8H3=w240-h480-rw',
         title: 'Line官方费用计算方式',
         desc: 'LINE廣告訊息費用怎麼算？LINE自動計算幫你找出最適合方案',
         link: 'https://tw.linebiz.com/column/budget-auto-count/',
@@ -246,7 +240,7 @@ export const NAV_DATA: NavData[] = [
     title: '常用工具',
     items: [
       {
-        icon: '/',
+        icon: 'https://www.bejson.com/static/bejson/img/logo.png',
         title: '在线短地址转换工具',
         desc: '转换短链接的',
         link: 'https://www.bejson.com/convert/shorturl/#google_vignette',
@@ -316,6 +310,30 @@ export const NAV_DATA: NavData[] = [
         title: '在线工具',
         desc: '开发人员的工具箱',
         link: 'https://tool.lu',
+      },
+      {
+        icon: 'https://sunlogin.oray.com/favicon.ico',
+        title: '向日葵远程软件',
+        desc: '用于远程国内的客户',
+        link: 'https://sunlogin.oray.com/download',
+      },
+      {
+        icon: 'https://oss.heipg.cn/2021/04/1619081333-2ef3d9446fcd093.png',
+        title: 'AnyDesk',
+        desc: '用于远程国内的客户',
+        link: 'https://www.todesk.com/download.html',
+      },
+      {
+        icon: 'https://anydesk.com.cn/_static/img/favicon/favicon-32x32.png',
+        title: 'AnyDesk',
+        desc: '用于远程海外的客户',
+        link: 'https://anydesk.com/en',
+      },
+      {
+        icon: 'https://www.teamviewer.com/etc.clientlibs/teamviewer/clientlibs/clientlib-resources/resources/favicon.png',
+        title: 'AnyDesk',
+        desc: '用于远程海外的客户',
+        link: 'https://www.teamviewer.com/apac/download/windows/',
       },
     ],
   },
