@@ -319,7 +319,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://oss.heipg.cn/2021/04/1619081333-2ef3d9446fcd093.png',
-        title: 'AnyDesk',
+        title: 'Todesk',
         desc: '用于远程国内的客户',
         link: 'https://www.todesk.com/download.html',
       },
@@ -331,9 +331,15 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://www.teamviewer.com/etc.clientlibs/teamviewer/clientlibs/clientlib-resources/resources/favicon.png',
-        title: 'AnyDesk',
+        title: 'Teamviewer',
         desc: '用于远程海外的客户',
         link: 'https://www.teamviewer.com/apac/download/windows/',
+      },
+      {
+        icon: 'https://mjj.today/content/images/system/favicon_1639686409730_363774.png',
+        title: '免费图床 上传图片分享',
+        desc: 'MJJ.TODAY - 免费图床 上传图片分享',
+        link: 'https://mjj.today/',
       },
     ],
   },
