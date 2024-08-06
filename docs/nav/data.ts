@@ -58,6 +58,12 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
+        title: 'Ss客户需求登记表',
+        desc: '客户需求登记和跟进',
+        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuv3g7kRjWdqbropQ?iframeQuery=utm_source%3Dportal%26utm_medium%3Dportal_recent',
+      },
+      {
+        icon: 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png',
         title: '云设备需求收集表格',
         desc: '用于收集客户ws/tg/tk个号设备信息',
         link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuX9KrRADWdqbropQ?iframeQuery=',
