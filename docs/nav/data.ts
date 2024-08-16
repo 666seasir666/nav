@@ -152,10 +152,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.facebook.com/policies_center/commerce/',
       },
       {
-        icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
+        icon: 'https://www.facebook.com/images/creative_department/favicon.ico',
+        title: 'Facebook 政策及信息公示平台',
+        desc: '可以查看Facebook各大政策',
+        link: 'https://transparency.meta.com/zh-cn/policies/',
+      },
+      {
+        icon: 'https://www.facebook.com/images/creative_department/favicon.ico',
         title: 'WhatsApp Business 商业帐号的账单简介',
         desc: 'WhatsApp Business 商业帐号的账单简介',
         link: 'https://www.facebook.com/business/help/2225184664363779?id=2129163877102343',
+      },
+      {
+        icon: 'https://www.facebook.com/images/creative_department/favicon.ico',
+        title: 'Business Manager',
+        desc: 'BM-商务管理平台',
+        link: 'https://business.facebook.com/latest/settings',
       },
       {
         icon: 'https://img.alicdn.com/imgextra/i1/O1CN01DGvg5O1TqMV3L4TNd_!!6000000002433-2-tps-96-96.png',
@@ -240,6 +252,12 @@ export const NAV_DATA: NavData[] = [
         desc: '搜索任何IP地址/域',
         link: 'https://ip-api.com/',
       },
+      {
+        icon: 'https://www.iplocation.net/favicon.ico',
+        title: 'iplocation',
+        desc: '解析ip网络位置',
+        link: 'https://www.iplocation.net/',
+      },
     ],
   },
   {
@@ -282,12 +300,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://2fa.run/',
       },
       {
-        icon: 'https://www.iplocation.net/favicon.ico',
-        title: 'iplocation',
-        desc: '解析ip网络位置',
-        link: 'https://www.iplocation.net/',
-      },
-      {
         icon: 'https://www.67tool.com//favicon.ico',
         title: '即时工具',
         desc: '即时工具-致力打造即用即走型在线工具箱',
@@ -324,7 +336,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://sunlogin.oray.com/download',
       },
       {
-        icon: 'https://oss.heipg.cn/2021/04/1619081333-2ef3d9446fcd093.png',
+        icon: 'https://img1.baidu.com/it/u=3876590970,3744482185&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500',
         title: 'Todesk',
         desc: '用于远程国内的客户',
         link: 'https://www.todesk.com/download.html',
