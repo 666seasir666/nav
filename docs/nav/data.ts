@@ -116,10 +116,28 @@ export const NAV_DATA: NavData[] = [
         link: 'https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes',
       },
       {
+        icon: 'https://github.com/fluidicon.png',
+        title: 'Facebook API错误代码',
+        desc: '来源互联网整理Facebook API错误代码和主页错误码',
+        link: 'https://github.com/phwd/fbec',
+      },
+      {
         icon: 'https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico',
         title: 'Error Codes Messenger',
         desc: '查FB主页错误码',
         link: 'https://developers.facebook.com/docs/messenger-platform/error-codes',
+      },
+      {
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico',
+        title: 'WhatsApp Business 开放平台嵌入式注册错误码',
+        desc: '自助注册api号码错误码',
+        link: 'https://developers.facebook.com/docs/whatsapp/embedded-signup/errors?locale=zh_CN',
+      },
+      {
+        icon: 'https://img.alicdn.com/imgextra/i1/O1CN01DGvg5O1TqMV3L4TNd_!!6000000002433-2-tps-96-96.png',
+        title: '【错误码】问题上报相关问题',
+        desc: '钉钉文档整理错误码',
+        link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space',
       },
       {
         icon: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=369852008357062&version=1714720725',
@@ -168,12 +186,6 @@ export const NAV_DATA: NavData[] = [
         title: 'Business Manager',
         desc: 'BM-商务管理平台',
         link: 'https://business.facebook.com/latest/settings',
-      },
-      {
-        icon: 'https://img.alicdn.com/imgextra/i1/O1CN01DGvg5O1TqMV3L4TNd_!!6000000002433-2-tps-96-96.png',
-        title: '【错误码】问题上报相关问题',
-        desc: '钉钉文档整理错误码',
-        link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space',
       },
       {
         icon: 'https://wwcdn.weixin.qq.com/node/wwnl/wwnl/style/images/independent/favicon/favicon_16h$faede2cd.png',
