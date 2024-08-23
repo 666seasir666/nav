@@ -1,11 +1,17 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
-  //导航栏下拉菜单 
+  //导航栏下拉菜单
+  {
+    text: '桌面客户端',
+    items: [
+      { text: '64位 适用于win10以上', link: 'https://client.salesmartly.com/app/desktop/SaleSmartly-windows.zip' },
+      { text: '32位 适用于win10以下', link: 'https://client.salesmartly.com/app/update/SaleSmartly-1.5.5-ia32.exe' },
+    ]
+  },
   {
     text: '家', items: [
       { text: '首页', link: '/' },
-      { text: '更新日志', link: 'https://github.com/vuejs/vitepress/blob/main/docs/zh/index.md' },
       { text: '关于我们', link: 'https://github.com/666seasir666' },
       { text: 'DEMO网站', link: 'https://soybean-admin.netlify.app/' },
     ]
