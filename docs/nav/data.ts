@@ -426,10 +426,34 @@ export const NAV_DATA: NavData[] = [
         link: 'https://zhuanlan.zhihu.com/p/690640067',
       },
       {
+        icon: 'https://inboxes.com/images/favicon.png',
+        title: 'Inboxes - Disposable Temporary email',
+        desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
+        link: 'https://inboxes.com/',
+      },
+      {
         icon: 'https://fviainboxes.com/favicon.ico',
-        title: 'Free Temp Mail - FVIA',
+        title: 'Fviainboxes',
         desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
         link: 'https://fviainboxes.com/',
+      },
+      {
+        icon: 'https://www.moakt.com/favicon.ico',
+        title: 'moakt',
+        desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
+        link: 'https://www.moakt.com/en',
+      },
+      {
+        icon: 'https://generator.email/favicon.ico',
+        title: 'generator',
+        desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
+        link: 'https://generator.email',
+      },
+      {
+        icon: 'https://www.1secmail.com/img/favicon.ico',
+        title: '1secmail',
+        desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
+        link: 'https://www.1secmail.com/',
       }
     ],
   },

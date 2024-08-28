@@ -13,8 +13,8 @@ hero:
   actions:
     # - text: 茂茂物语
     #   link: https://notes.fe-mm.com
-    - text: 在线音乐播放器
-      link: https://netease-music.fe-mm.com
+    - text: MyFreeMP3
+      link: http://tool.liumingye.cn/music/#/
       theme: alt
     - text: 快速开始
       link: /nav/
@@ -41,6 +41,16 @@ features:
     title: SaleSmartly - 帮助中心
     details: 帮助中心
     link: https://help.salesmartly.com/
+    linkText: 查看更多
+  - icon: 📖
+    title: 售前客户信息登记
+    details: 接到需要做售前支持的劳烦在这个钉钉在线文档登记一下 然后@子健
+    link: https://alidocs.dingtalk.com/i/nodes/2Amq4vjg892Q7jNDfLZGZzOnW3kdP0wQ?iframeQuery=
+    linkText: 查看更多
+  - icon: 📖
+    title: API号无法绑定主页和广告资料收集
+    details: 购买平台号码绑定主页或者广告账户收不到验证码
+    link: https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gQpK4NhK9zM4NXJB5r9YAn
     linkText: 查看更多
 ---
 
