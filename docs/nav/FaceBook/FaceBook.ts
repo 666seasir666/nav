@@ -62,6 +62,12 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: icon_Meta_Url,
+        title: 'WhatsApp Business 开放平台',
+        desc: '通过 WhatsApp Business 开放平台，大中型企业可与客户进行大规模交流',
+        link: 'https://developers.facebook.com/docs/whatsapp'
+      },
+      {
+        icon: icon_Meta_Url,
         title: 'Instagram 消息 入门指南',
         desc: '调用支持 Instagram 的 Messenger API（也将之称为 Instagram 消息 API）',
         link: 'https://developers.facebook.com/docs/messenger-platform/instagram/get-started',
@@ -71,8 +77,7 @@ export const NAV_DATA: NavData[] = [
         title: 'Messenger 开放平台概览',
         desc: 'Messenger 开放平台的运作方式和成功实现该开放平台所需的要素',
         link: 'https://developers.facebook.com/docs/messenger-platform/overview'
-    }
-
+      },
     ]
   },
   {
