@@ -44,14 +44,29 @@ import { NAV_DATA } from './data'
 - 修改和更新： 本免责声明的条款可能会随时更改，本站保留对免责声明进行修订的权利。用户继续使用本站即视为接受修改后的免责声明条款。
   :::
 
+## Git 提交规范
+
+添加所有更改
+
 ```bash
-git add <file1> <file2> ...  # 或使用 `git add .` 添加所有更改
+git add .
+```
 
-git commit -m "feat(auth): add login functionality"
+提交暂存区的更改
 
-git push --force
+```bash
+git commit -m "feat(auth): 输入您提交的内容信息"
+```
 
-常见的提交类型及示例
+推送更改到远程仓库
+
+```bash
+git push
+```
+
+## 常见的提交类型及示例
+
+```bash
 新增功能 (Feature): git commit -m "feat(payment): add credit card option"
 修复 Bug (Fix): git commit -m "fix(auth): correct token expiration handling"
 文档更新 (Docs): git commit -m "docs(readme): update API documentation"
