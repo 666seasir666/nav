@@ -92,3 +92,8 @@ table {
 .dark::view-transition-old(root) {
   z-index: 9999;
 }
+
+.VPNavBar {
+  background-color: #fff6;
+  backdrop-filter: blur(6px);
+}

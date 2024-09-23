@@ -22,11 +22,15 @@
 
   --vp-c-highlight-bg: var(--vp-c-brand-light);
   --vp-c-highlight-text: var(--vp-c-bg);
+  // 滚动条滑块颜色
+  --color-pink-light: #449bff; /* 定义亮色主题下的滚动条颜色 */
 }
 
 .dark {
   --vp-code-block-bg: rgba(0, 0, 0, 0.2);
   --vp-c-text-code: #c0cec0;
+  // 滚动条滑块颜色
+  --color-green-light: #322d31; /* 定义暗色主题下的滚动条颜色 */
 }
 
 /**
@@ -100,4 +104,85 @@
  * -------------------------------------------------------------------------- */
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 2em;
+}
+
+/* 亮色滑块悬停效果 */
+::-webkit-scrollbar-thumb:hover {
+  background: #26c6da; /* 滑块悬停时的颜色 */
+  background-image: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 0.4) 25%,
+    transparent 0,
+    transparent 50%,
+    hsla(0, 0%, 100%, 0.4) 0,
+    hsla(0, 0%, 100%, 0.4) 75%,
+    transparent 0,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-pink-light);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 0.4) 25%,
+    transparent 0,
+    transparent 50%,
+    hsla(0, 0%, 100%, 0.4) 0,
+    hsla(0, 0%, 100%, 0.4) 75%,
+    transparent 0,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+/* 暗色模式下的滚动条 */
+html.dark ::-webkit-scrollbar-thumb {
+  background-color: var(--color-green-light);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 0.4) 25%,
+    transparent 0,
+    transparent 50%,
+    hsla(0, 0%, 100%, 0.4) 0,
+    hsla(0, 0%, 100%, 0.4) 75%,
+    transparent 0,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+/* 当html元素为dark模式时，设置滚动条滚动时的颜色 */
+html.dark ::-webkit-scrollbar-thumb:hover {
+  /* 使用线性渐变设置滚动条的颜色 */
+  background-image: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 0.5) 25%,
+    transparent 0,
+    transparent 50%,
+    hsla(0, 0%, 100%, 0.5) 0,
+    hsla(0, 0%, 100%, 0.5) 75%,
+    transparent 0,
+    transparent
+  );
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* 加载进度条 */
+#nprogress .bar {
+  background: var(--primary-color) !important;
 }

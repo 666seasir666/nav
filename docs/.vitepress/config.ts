@@ -2,15 +2,14 @@ import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
 
-import { head, nav, sidebar } from './configs'
+import { head, nav } from './configs'
+// import MiniSearch from 'minisearch';
 
-import MiniSearch from 'minisearch';
-
-// 定义 MiniSearch 实例
-const search = new MiniSearch({
-  fields: ['title', 'content'],
-  storeFields: ['title'],
-});
+// // 定义 MiniSearch 实例
+// const search = new MiniSearch({
+//   fields: ['title', 'content'],
+//   storeFields: ['title'],
+// });
 
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
@@ -46,31 +45,20 @@ lastUpdated: true,
     // 导航配置
     nav,
     // 侧边栏配置
-    // sidebar,
-    // sidebar:[
-    //   {
-    //     text: 'SaleSmartly相关', link: '/',
-    //     collapsed: true,
-    //     items: [
-    //       {
-    //         text: '首页',
-    //         link: '',
-    //       },
-    //       {
-    //         text: '测试',
-    //         link: '/',
-    //       },
-    //       {
-    //         text: '测',
-    //         link: '/',
-    //       },
-    //       {
-    //         text: '试',
-    //         link: '/',
-    //       }
-    //     ]
-    //   },
-    // ],
+    sidebar: [
+      {
+        text: '快速导航',
+        collapsed: false,
+        items: [
+          // 显示的是 `/guide/index.md` 页面
+          { text: 'SaleSmartly', link: '/nav/SaleSmartly/' },
+          { text: 'FaceBook', link: '/nav/FaceBook/' },
+          { text: 'Line', link: '/nav/Line/' },
+          { text: 'Code proxy IP', link: '/nav/Code proxy IP/' },
+          { text: '常用工具', link: '/nav/常用工具/' }
+        ]
+      }
+    ],
 
     /* 右侧大纲配置 */
     outline: {
@@ -143,27 +131,27 @@ lastUpdated: true,
     // },
 
     // 设置搜索框的样式
-    search: {
-      provider: 'local',
-      options: {
+    // search: {
+    //   provider: 'local',
+    //   options: {
 
-        translations: {
-          button: {
-            buttonText: '搜索',
-            buttonAriaLabel: '搜索文档',
-          },
-          modal: {
-            noResultsText: '无法找到相关结果',
-            resetButtonTitle: '清除查询条件',
-            footer: {
-              selectText: '选择',
-              navigateText: '切换',
-              closeText: '关闭',
-            },
-            }
-        },
-      },
-    }
+    //     translations: {
+    //       button: {
+    //         buttonText: '搜索',
+    //         buttonAriaLabel: '搜索文档',
+    //       },
+    //       modal: {
+    //         noResultsText: '无法找到相关结果',
+    //         resetButtonTitle: '清除查询条件',
+    //         footer: {
+    //           selectText: '选择',
+    //           navigateText: '切换',
+    //           closeText: '关闭',
+    //         },
+    //         }
+    //     },
+    //   },
+    // }
   },
 
   vite: {
