@@ -5,7 +5,7 @@ layoutClass: 'm-home-layout'
 hero:
   name: SaleSmartly
   text: 内部一站式导航
-  tagline: 基于 VitePress 的前端导航页面模板
+  # tagline: 基于 VitePress 的前端导航页面模板
   image:
     # 主页右侧logo背景图
     src: /background.svg
@@ -13,10 +13,10 @@ hero:
   actions:
     # - text: 茂茂物语
     #   link: https://notes.fe-mm.com
-    - text: MyFreeMP3
-      link: http://tool.liumingye.cn/music/#/
-      theme: alt
-    - text: 快速开始
+    # - text: 在线音乐
+    #   link: http://tool.liumingye.cn/music/#/
+    #   theme: alt
+    - text: 快速导航
       link: /nav/
     # - text: 测试页
     #   link: /test
@@ -27,7 +27,7 @@ features:
     details: 一站式个人Ss内部导航页面
     link: /nav/
     linkText: 查看更多
-  - icon: 📖
+  - icon: 📝
     title: 内部知识库
     details: 钉钉内部知识库
     link: https://alidocs.dingtalk.com/i/spaces/apjG5kK26OQwKXkE/overview

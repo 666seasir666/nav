@@ -1,8 +1,5 @@
 import type { NavLink } from '../../.vitepress/theme/types'
 
-// line官方图标
-const icon_Line_Url = 'https://vos.line-scdn.net/lbstw-static/assets/frontend/touch_icon.png';
-
 type NavData = {
   title: string
   items: NavLink[]
@@ -191,6 +188,60 @@ export const NAV_DATA: NavData[] = [
         desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
         link: 'https://www.1secmail.com/',
       }
+    ],
+  },
+
+  {
+    title: '跨境导航',
+    items: [
+      {
+        icon: 'https://www.partnershare.cn/partnershare.ico',
+        title: 'partnershare',
+        desc: '产品分享社区',
+        link: 'https://www.partnershare.cn/',
+      },
+      {
+        icon: 'https://www.kjdzd.com/favicon.ico',
+        title: '跨境都知道导航',
+        desc: '跨境都知道导航',
+        link: 'https://www.kjdzd.com/',
+      },
+      {
+        icon: 'https://www.m123.com/favicon.ico',
+        title: 'M123跨境导航工具',
+        desc: 'M123跨境导航工具',
+        link: 'https://www.m123.com/',
+      }
+    ],
+  },
+
+  {
+    title: '前端',
+    items: [
+      {
+        icon: 'https://nav.web-hub.cn/img/logo.ico',
+        title: 'FrontEndNav前端开发网址导航',
+        desc: 'W3Cplus前端学习教程',
+        link: 'https://nav.web-hub.cn/',
+      },
+      {
+        icon: 'https://notes.fe-mm.com/favicon.ico',
+        title: '茂茂前端导航',
+        desc: '为前端开发工程师提供最简单便捷的网址导航服务',
+        link: 'https://notes.fe-mm.com/nav',
+      },
+      {
+        icon: 'https://web-abin.github.io/abinWeb/favicon.ico',
+        title: '前端助手',
+        desc: '前端工具，导航，前端资源，网站资源',
+        link: 'https://web-abin.github.io/abinWeb/tools/',
+      },
+      {
+        icon: 'https://css.bqrdh.com/favicon.ico',
+        title: 'CSS可视化',
+        desc: 'CSS可视化，CSS生成器，CSS边框生成器，Flex布局可视化，常用配色表，CSS背景生成器',
+        link: 'https://css.bqrdh.com/safety-color',
+      },
     ],
   },
 ]

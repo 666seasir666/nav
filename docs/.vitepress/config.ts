@@ -47,7 +47,7 @@ lastUpdated: true,
     // 侧边栏配置
     sidebar: [
       {
-        text: '快速导航',
+        text: '快速导航',link: 'https://www.google.com/',
         collapsed: false,
         items: [
           // 显示的是 `/guide/index.md` 页面

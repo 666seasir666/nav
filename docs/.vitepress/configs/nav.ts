@@ -17,21 +17,6 @@ export const nav: DefaultTheme.Config['nav'] = [
     ]
   },
   {
-    text: '跨境导航', items: [
-      { text: '跨境导航', link: 'https://www.partnershare.cn/' },
-      { text: '跨境都知道导航', link: 'https://www.kjdzd.com' },
-      { text: 'M123跨境导航工具', link: 'https://www.m123.com/' },
-    ]
-  },
-  {
-    text: '前端', items: [
-      { text: 'FrontEndNav', link: 'https://nav.web-hub.cn/' },
-      { text: '茂茂前端导航', link: 'https://notes.fe-mm.com/nav' },
-      { text: '前端助手', link: 'https://web-abin.github.io/abinWeb/tools' },
-      { text: 'Web安全色 | CSS可视化', link: 'https://css.bqrdh.com/' },
-    ]
-  },
-  {
     text: '友链', items: [
       { text: 'SaleSmartly - 全渠道客户沟通平台', link: 'https://salesmartly.com/' },
       { text: 'AdsPower - 指纹浏览器', link: 'https://www.adspower.com/' },
