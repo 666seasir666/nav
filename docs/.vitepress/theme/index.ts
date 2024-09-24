@@ -9,6 +9,9 @@ import MNavLinks from './components/MNavLinks.vue'
 
 import './styles/index.scss'
 
+import ElementPlus from 'element-plus';
+import 'element-plus/dist/index.css'; // 引入 Element Plus 的 CSS 样式
+
 let homePageStyle: HTMLStyleElement | undefined
 
 export default {
@@ -26,6 +29,7 @@ export default {
     return h(MLayout, props)
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
+    app.use(ElementPlus); // 在 VitePress 中注册 Element Plus
     createMediumZoomProvider(app, router)
 
     app.provide('DEV', process.env.NODE_ENV === 'development')

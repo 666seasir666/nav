@@ -9,6 +9,8 @@ import { usePageId } from '../composables'
 import MNavVisitor from './MNavVisitor.vue'
 import MDocFooter from './MDocFooter.vue'
 
+import BackToTop from './BackToTop.vue' //返回顶部
+
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
 const pageId = usePageId()
@@ -88,6 +90,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       <MDocFooter />
     </template>
   </Layout>
+
+  <div>
+    <!-- 返回顶部 -->
+    <BackToTop />
+  </div>
 </template>
 
 <style>

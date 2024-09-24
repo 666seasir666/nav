@@ -3,13 +3,6 @@ import type { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.Config['nav'] = [
   //导航栏下拉菜单
   {
-    text: '桌面客户端',
-    items: [
-      { text: '64位 适用于win10以上', link: 'https://client.salesmartly.com/app/desktop/SaleSmartly-windows.zip' },
-      { text: '32位 适用于win10以下', link: 'https://client.salesmartly.com/app/update/SaleSmartly-1.5.5-ia32.exe' },
-    ]
-  },
-  {
     text: '家', items: [
       { text: '首页', link: '/' },
       { text: '关于我们', link: 'https://github.com/666seasir666' },
@@ -24,5 +17,15 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'IPFoxy - 全球静态独享 IP代理', link: 'https://www.ipfoxy.com/' },
       { text: 'DuoPlus - 云端操控，拓展全球商机', link: 'https://www.duoplus.cn/' },
     ]
+  },
+  {
+    text: '桌面客户端',
+    items: [
+      { text: '64位 适用于win10以上', link: 'https://client.salesmartly.com/app/desktop/SaleSmartly-windows.zip' },
+      { text: '32位 适用于win10以下', link: 'https://client.salesmartly.com/app/update/SaleSmartly-1.5.5-ia32.exe' },
+    ]
+  },
+  {
+    text: '错误码文档',link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space'
   }
 ]

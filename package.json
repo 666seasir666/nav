@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "child_process": "^1.0.2",
+    "element-plus": "^2.8.3",
     "flexsearch": "^0.7.43",
     "minisearch": "^6.3.0"
   }
