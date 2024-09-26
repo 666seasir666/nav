@@ -96,6 +96,18 @@ export const NAV_DATA: NavData[] = [
         desc: 'webhook不需要单独付费 可以理解和专属链接一样都是高级功能 只有企业版才能使用',
         link: 'https://apifox.com/apidoc/shared-c1f4db0d-60eb-42c7-98f7-66c65bc09fdf',
       },
+      {
+        icon: '/icons/json-cn.ico',
+        title: 'Json 中文网',
+        desc: 'JSON 在线解析及格式化验证',
+        link: 'https://www.json.cn',
+      },
+      {
+        icon: '',
+        title: 'MD5在线加密',
+        desc: '必须是32位小写',
+        link: 'http://www.jsons.cn/md5/s/',
+      },
     ],
   },
 

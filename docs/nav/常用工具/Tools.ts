@@ -100,6 +100,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.jsont.run/',
       },
       {
+        icon: '',
+        title: 'MD5在线加密',
+        desc: '必须是32位小写',
+        link: 'http://www.jsons.cn/md5/s/',
+      },
+      {
         icon: 'https://css.bqrdh.com/favicon.ico',
         title: '响应式效果检测',
         desc: '检查网站是否有适配移动端页面布局',
